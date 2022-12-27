@@ -1,0 +1,52 @@
+﻿<Window x:Class="SchoolQuestions.Reason"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolQuestions"
+        mc:Ignorable="d"
+        Title="Reason" Height="600" Width="800"
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Label">
+                    <Setter Property="FontSize" Value="15" />
+                    <Setter Property="Margin" Value="5" />
+                    <Setter Property="Padding" Value="3" />
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="15" />
+                    <Setter Property="Margin" Value="5" />
+                    <Setter Property="Padding" Value="3" />
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Otázka: " />
+        <TextBlock Grid.Column="1" x:Name="title" TextWrapping="Wrap" />
+
+        <Label Content="Vaše odpověď: " Grid.Row="1" />
+        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="y_answ" TextWrapping="Wrap" />
+
+        <Label Content="Správná odpověď: " Grid.Row="2" />
+        <TextBlock Grid.Row="2" Grid.Column="1" x:Name="r_answ" TextWrapping="Wrap" />
+
+        <Label Content="Důvod: " Grid.Row="3" />
+        <TextBlock Grid.Row="3" Grid.Column="1" x:Name="reason" TextWrapping="Wrap" />
+    </Grid>
+</Window>

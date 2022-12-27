@@ -1,0 +1,35 @@
+﻿<Window x:Class="SchoolQuestions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolQuestions"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="5">
+        <TextBlock TextWrapping="Wrap" Grid.Row="0" FontSize="12" Padding="0,3,0,10">
+            Tato aplikace slouží pro testování. Kliknutím na tlačítko "Pokračovat" se posunete na další stránku s výběrem testů.
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Grid.Row="1" FontSize="30" Padding="0,5,0,5">
+            Jak vyplňovat test:
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Grid.Row="2" FontSize="23" Padding="0,5,0,10">
+        V testu se mohou nacházet dohromady dva typy otázek. Prvním typem je otázka uzavřená, jež má tři předem dané varianty a u níž existuje
+        zpravidla pouze jedna správná odpověď. Druhým typem je otázka otevřená, která nemusí mít pouze jednu správnou odpověď a jejíž
+        vyhodnocování tudíž nemusí být stoprocentní. Tyto odpovědi jsou na závěr zkontrolovány vyučujícím pro dosažení stoprocentní přesnosti
+        výsledného hodnocení. Při označení odpovědi je třeba pro přechod na další stránku kliknout na tlačítko pokračovat, přičemž
+        neexistuje možnost se vrátit k otázkám již odpovězeným. Při vyhodnocení je zobrazen výčet správných a špatných odpovědí
+        a u každé odpovědi se zároveň i ukáže, jaká odpověď byla správná a jaký je k tomu důvod.
+        </TextBlock>
+
+        <Button Content="Pokračovat" Grid.Row="3" VerticalAlignment="Bottom" Margin="3" HorizontalAlignment="Center" Padding="5" Click="Button_Click" />
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>

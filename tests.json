@@ -1,0 +1,125 @@
+﻿[
+  {
+    "Name": "Programov\u00E1n\u00ED",
+    "Theme": "OOP",
+    "Count": 10,
+    "Questions": [
+      {
+        "Title": "Co to znamen\u00E1 OOP?",
+        "Reason": "Objektov\u011B orientovan\u00E9 programov\u00E1n\u00ED (zkracov\u00E1no na OOP, z anglick\u00E9ho Object-oriented programming) je v informatice specifick\u00E9 programovac\u00ED paradigma (programovac\u00ED zp\u016Fsob / styl).",
+        "Choices": [
+          "Organizace objekt\u016F projektu",
+          "Objektov\u011B orientovan\u00E9 programov\u00E1n\u00ED",
+          "Objekty organizovan\u00E9ho prost\u0159ed\u00ED"
+        ],
+        "Answers": [
+          "Objektov\u011B orientovan\u00E9 programov\u00E1n\u00ED"
+        ]
+      },
+      {
+        "Title": "Co je to metoda?",
+        "Reason": "Metody jsou ur\u010Den\u00E9 k tomu, aby s daty objektu mohly pracovat i jin\u00E9 objekty, naz\u00FDv\u00E1me je rozhran\u00EDm objektu.",
+        "Choices": [
+          "Blok obsahuj\u00EDc\u00ED funk\u010Dn\u00ED k\u00F3d, kter\u00FD pracuje s dan\u00FDm objektem.",
+          "Blok obsahuj\u00EDc\u00ED funk\u010Dn\u00ED k\u00F3d, kter\u00FD m\u00E1 za \u00FAkol prov\u00E9st jistou akci a pot\u00E9 vr\u00E1tit jej\u00ED v\u00FDsledek.",
+          "Prvek, kter\u00FD n\u00E1m umo\u017E\u0148uje ukl\u00E1dat data o objektu."
+        ],
+        "Answers": [
+          "Blok obsahuj\u00EDc\u00ED funk\u010Dn\u00ED k\u00F3d, kter\u00FD pracuje s dan\u00FDm objektem."
+        ]
+      },
+      {
+        "Title": "Co je to parametr metody?",
+        "Reason": "Aby mohla metoda ud\u011Blat, co po n\u00ED chceme, ob\u010Das na to pot\u0159ebuje parametry. Pokud chceme p\u0159ev\u00E9st text na \u010D\u00EDslo, metoda bude pot\u0159ebovat test, kter\u00FD m\u00E1 p\u0159ev\u00E9st, jinak tuto akci nem\u016F\u017Eeme prov\u00E9st",
+        "Choices": [
+          "Data, kter\u00E1 se n\u00E1sledn\u011B ulo\u017E\u00ED do objektu.",
+          "Data, u kter\u00FDch si m\u016F\u017Eeme b\u00FDt jisti, \u017Ee je metoda modifikuje.",
+          "Data, kter\u00E1 p\u0159ed\u00E1v\u00E1me metod\u011B, aby mohla vykonat po\u017Eadovan\u00FD \u00FAkon."
+        ],
+        "Answers": [
+          "Data, kter\u00E1 p\u0159ed\u00E1v\u00E1me metod\u011B, aby mohla vykonat po\u017Eadovan\u00FD \u00FAkon."
+        ]
+      },
+      {
+        "Title": "Deklarujte soukromou metodu vracej\u00EDc\u00ED textov\u00FD \u0159et\u011Bzec, je\u017E se jmenuje M a p\u0159eb\u00EDr\u00E1 jako argument cel\u00E9 \u010D\u00EDslo i s velikost\u00ED 32 bit\u016F. Vynechejte t\u011Blo metody.",
+        "Reason": "Soukrom\u00E1 metoda je ozna\u010Den\u00E1 jako private, pokud ale ozna\u010Den\u00ED dostupnosti chyb\u00ED, je dostupnost automaticky nastavena na private. Cel\u00E9 \u010D\u00EDslo velikosti 32 bit\u016F je Int32, d\u00E1le pro u\u017Eivatele za \u00FA\u010Delem zjednodu\u0161en\u00ED zkr\u00E1veno na alias int.",
+        "Choices": null,
+        "Answers": [
+          "private string M(int i)",
+          "private string M(Int32 i)",
+          "string M(int i)",
+          "string M(Int32 i)"
+        ]
+      },
+      {
+        "Title": "Co m\u00E1 za \u00FAkol konstruktor?",
+        "Reason": "Kontruktor (od slova zkonstruovat) je v\u017Edy vol\u00E1n p\u0159i vytvo\u0159en\u00ED objektu a slou\u017E\u00ED k jeho p\u0159\u00EDprav\u011B na pou\u017E\u00ED a alokaci pam\u011Bti.",
+        "Choices": [
+          "Zm\u011Bnit hlavn\u00ED vlastnosti objektu.",
+          "P\u0159ipravit objekt na pou\u017Eit\u00ED a alokovat pam\u011B\u0165.",
+          "Pokusit se vy\u010Distit pam\u011B\u0165, pokud je pam\u011B\u0165 syst\u00E9mu pln\u00E1 a program \u017E\u00E1d\u00E1 o dal\u0161\u00ED."
+        ],
+        "Answers": [
+          "P\u0159ipravit objekt na pou\u017Eit\u00ED a alokovat pam\u011B\u0165."
+        ]
+      },
+      {
+        "Title": "Co plat\u00ED o statick\u00FDch metod\u00E1ch?",
+        "Reason": "Statick\u00E9 metody pat\u0159\u00ED ke t\u0159\u00EDd\u011B, ne k objektu, tud\u00ED\u017E nevid\u00ED nestatick\u00E1 data. Lze je pou\u017E\u00EDt, ani\u017E by byla vytvo\u0159ena instance t\u0159\u00EDdy. P\u0159\u00EDklad statick\u00E9 metody je nap\u0159\u00EDklad WriteLine v t\u0159\u00EDd\u011B Console, metodu vol\u00E1me pouze pomoc\u00ED T\u0159\u00EDda.Metoda(), av\u0161ak nestatick\u00E9 metody mus\u00EDme volat pomoc\u00ED instance objektu, nap\u0159 metodu Next t\u0159\u00EDdy Random.: Random rnd = new(); rnd.Next(); - Random je t\u0159\u00EDda, rnd je objekt.",
+        "Choices": [
+          "Pro ve\u0161ker\u00E9 objekty je jen jedna podoba t\u00E9to metody, jeliko\u017E metoda pat\u0159\u00ED t\u0159\u00EDd\u011B.",
+          "Maj\u00ED zak\u00E1z\u00E1no manipulovat s ostatn\u00EDmi statick\u00FDmi prvky t\u0159\u00EDd.",
+          "Nemohou b\u00FDt zavol\u00E1ny z instance stejn\u00E9 t\u0159\u00EDdy."
+        ],
+        "Answers": [
+          "Pro ve\u0161ker\u00E9 objekty je jen jedna podoba t\u00E9to metody, jeliko\u017E metoda pat\u0159\u00ED t\u0159\u00EDd\u011B."
+        ]
+      },
+      {
+        "Title": "K \u010Demu pou\u017E\u00EDv\u00E1me jmenn\u00E9 prostory?",
+        "Reason": "Jmenn\u00FD prostor slou\u017E\u00ED pro lep\u0161\u00ED organizaci k\u00F3du, jeliko\u017E n\u00E1m umo\u017E\u0148uje l\u00E9pe naj\u00EDt v\u011Bci, nap\u0159. Console.WriteLine() se nach\u00E1z\u00ED v jmenn\u00E9m prostoru system, d\u00EDky \u010Demu\u017E m\u016F\u017Eeme vytvo\u0159it svoji t\u0159\u00EDdu Console bez sebemen\u0161\u00EDch probl\u00E9m\u016F a program si nebude st\u011B\u017Eovat, \u017Ee se t\u0159\u00EDdy jmenuj\u00ED stejn\u011B.",
+        "Choices": [
+          "Zamezuj\u00ED kr\u00E1de\u017Ei na\u0161eho k\u00F3du, jeliko\u017E se k n\u011Bmu nelze z ciz\u00EDho po\u010D\u00EDta\u010De dostat.",
+          "Vytvo\u0159en\u00EDm jmenn\u00E9ho prostoru \u0159\u00EDk\u00E1me u\u017Eivateli, \u017Ee se jeho obsah nach\u00E1z\u00ED ve stejnojmenn\u00E9m souboru.",
+          "Usnad\u0148uj\u00ED organizaci na\u0161eho k\u00F3du a z\u00E1rove\u0148 zamezuj\u00ED kolizi s ostatn\u00EDmi atributy."
+        ],
+        "Answers": [
+          "Usnad\u0148uj\u00ED organizaci na\u0161eho k\u00F3du a z\u00E1rove\u0148 zamezuj\u00ED kolizi s ostatn\u00EDmi atributy."
+        ]
+      },
+      {
+        "Title": "Kter\u00E1 z t\u011Bchto uk\u00E1zek nelze \u00FAsp\u011B\u0161n\u011B zkompilovat?",
+        "Reason": "var i = new Object() funguje, jeliko\u017E se jedn\u00E1 o instanci t\u0159\u00EDdy Object. for(;;); funguje, jeliko\u017E se jedn\u00E1 o klasick\u00FD for, kter\u00FD ale nem\u00E1 po\u010D\u00E1te\u010Dn\u00ED deklaraci, podm\u00EDnku a ani \u010Dinnost po ka\u017Ed\u00E9m jednom kroku cyklu, kter\u00FDm je pr\u00E1zn\u00FD p\u0159\u00EDkaz ;, tud\u00ED\u017E je to nekone\u010Dn\u00FD cyklus.class d { public void d { } } nefunguje, jeliko\u017E se nemohou metody jmenovat stejn\u011B, jako t\u0159\u00EDda, pokud by se jednalo o konstruktor, nesm\u00ED m\u00EDt n\u00E1vratovou hodnotu (void).",
+        "Choices": [
+          "var i = new Object();",
+          "for(;;);",
+          "class d { public void d() { } }"
+        ],
+        "Answers": [
+          "class d { public void d() { } }"
+        ]
+      },
+      {
+        "Title": "Vytvo\u0159te ve\u0159ejnou metodu M, kter\u00E1 nem\u00E1 n\u00E1vratovou hodnotu a p\u0159eb\u00EDr\u00E1 jako argument nepovinn\u00FD textov\u00FD \u0159et\u011Bzec S s v\u00FDchoz\u00ED hodnotou \u0022\u0022. Vynechejte t\u011Blo metody.",
+        "Reason": "public - t\u00EDmto ozna\u010D\u00EDme metodu, jako ve\u0159ejnou, tud\u00ED\u017E ji sm\u00ED pou\u017E\u00EDvat ostatn\u00ED objekty, void - \u017E\u00E1dn\u00E1 n\u00E1vratov\u00E1 hodnota, \u0022pr\u00E1zdno\u0022, string S = \u0022\u0022 - t\u00EDmto nastav\u00EDme hodnotu S na pr\u00E1zdnou hodnotu, pokud vol\u00E1me metodu a nevlo\u017E\u00EDme do n\u00ED jinou hodnotu, bude pou\u017Eita tato.",
+        "Choices": null,
+        "Answers": [
+          "public void M(string S = \u0022\u0022)"
+        ]
+      },
+      {
+        "Title": "Co je to instance objektu?",
+        "Reason": "",
+        "Choices": [
+          "Realn\u00FD v\u00FDskyt t\u0159\u00EDdy.",
+          "Pou\u017E\u00EDv\u00E1n\u00ED t\u0159\u00EDdy v k\u00F3du, i kdy\u017E se jedn\u00E1 nap\u0159\u00EDklad o statick\u00E9 metody.",
+          "Je to t\u0159\u00EDda, u kter\u00E9 m\u016F\u017Eeme pou\u017E\u00EDvat ve\u0159ejn\u00E9 metody."
+        ],
+        "Answers": [
+          "Realn\u00FD v\u00FDskyt t\u0159\u00EDdy."
+        ]
+      }
+    ],
+    "Seconds": 600
+  }
+]

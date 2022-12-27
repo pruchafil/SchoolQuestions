@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="SchoolQuestions.CloseQuestion"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:SchoolQuestions"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <!--<UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="Yellow" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>-->
+
+    <Grid>
+        <Label x:Name="question" FontSize="20" />
+        <Button x:Name="q_1" Grid.Row="1" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" VerticalAlignment="Stretch"
+                Margin="10" Padding="10" FontSize="20" Click="Button_Answ_Click" Background="Gainsboro">
+            <TextBox Text="A) " Background="Transparent" VerticalContentAlignment="Center" TextWrapping="Wrap" BorderThickness="0" IsReadOnly="True" />
+        </Button>
+        <Button x:Name="q_2" Grid.Row="2" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" VerticalAlignment="Stretch"
+                Margin="10" Padding="10" FontSize="20" Click="Button_Answ_Click" Background="Gainsboro">
+            <TextBox Text="B) " Background="Transparent" VerticalContentAlignment="Center" TextWrapping="Wrap" BorderThickness="0" IsReadOnly="True" />
+        </Button>
+        <Button x:Name="q_3" Grid.Row="3" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" VerticalAlignment="Stretch"
+                Margin="10" Padding="10" FontSize="20" Click="Button_Answ_Click" Background="Gainsboro">
+            <TextBox Text="C) " Background="Transparent" VerticalContentAlignment="Center" TextWrapping="Wrap" BorderThickness="0" IsReadOnly="True" />
+        </Button>
+        <Button Content="Pokračovat" Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="3" Padding="5" Click="Button_Click" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+    </Grid>
+</UserControl>

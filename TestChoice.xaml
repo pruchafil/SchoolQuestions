@@ -1,0 +1,28 @@
+﻿<Window x:Class="SchoolQuestions.TestChoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolQuestions"
+        mc:Ignorable="d"
+        Title="TestChoice" Height="450" Width="450"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListView x:Name="lv" HorizontalAlignment="Center" Margin="10">
+            <ListView.View>
+                <GridView ColumnHeaderToolTip="Výčet testů">
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}"  Header="Název testu" Width="160" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Theme}" Header="Téma" Width="160" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Count}" Header="Počet otázek" Width="80" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button Content="Zvolit" Grid.Row="1" HorizontalAlignment="Center" Margin="3" Padding="5" Click="Button_Click" />
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>
